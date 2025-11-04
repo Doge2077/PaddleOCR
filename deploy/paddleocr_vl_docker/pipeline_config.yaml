@@ -78,6 +78,10 @@ SubModules:
     genai_config:
       backend: vllm-server
       server_url: http://paddleocr-genai-vllm-server:8080/v1
+  Serving:
+    visualize: True
+    extra:
+      max_num_input_imgs: 10
 
 SubPipelines:
   DocPreprocessor:
